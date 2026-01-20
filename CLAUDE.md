@@ -1,8 +1,50 @@
-# Project Name
+# 科学動画の作り方 - YouTube動画シリーズ
 
 ## プロジェクト概要
 
-プロジェクトの概要を記載します。
+科学技術系YouTubeチャンネル向けの「科学動画の作り方」シリーズの脚本と構成を管理するプロジェクトです。動画制作のノウハウを共有し、科学コミュニケーションの発展に貢献することを目指します。
+
+## シリーズ構成
+
+| #   | エピソード         | フォルダ                                           | 状態   |
+| --- | ------------------ | -------------------------------------------------- | ------ |
+| 1   | 動画制作           | `video-scripts/1-video-production/`                | 準備中 |
+| 2   | 脚本と構成         | `video-scripts/2-script-and-composition/`          | 未着手 |
+| 3   | リサーチと資料収集 | `video-scripts/3-research-and-material-gathering/` | 未着手 |
+| 4   | 機材とツール       | `video-scripts/4-equipment-and-tools/`             | 未着手 |
+| 5   | バックストーリー   | `video-scripts/5-backstories/`                     | 未着手 |
+
+## ディレクトリ構造
+
+```text
+how-to-make-science-YT-videos/
+├── CLAUDE.md                    # プロジェクト設定・開発ガイドライン
+├── README.md                    # プロジェクト説明
+├── Makefile                     # 開発用コマンド
+├── organizer.yaml               # GitHub設定
+├── instructions/                # 制作ガイドライン
+│   └── youtube_script_guidelines.md  # TTS変換ガイドライン
+├── manim-scripts/               # Manimアニメーションスクリプト
+└── video-scripts/               # 動画別脚本
+    ├── 1-video-production/
+    │   ├── survey-draft.md      # 調査・下書き
+    │   ├── yt_script.md         # YouTube動画脚本
+    │   ├── yt_script_tts.md     # TTS用脚本
+    │   └── youtube_description.md  # 動画説明文
+    ├── 2-script-and-composition/
+    ├── 3-research-and-material-gathering/
+    ├── 4-equipment-and-tools/
+    └── 5-backstories/
+```
+
+## 各ファイルの役割
+
+| ファイル                 | 説明                                       |
+| ------------------------ | ------------------------------------------ |
+| `survey-draft.md`        | トピックの調査結果、参考資料、下書きメモ   |
+| `yt_script.md`           | 完成版のYouTube動画脚本                    |
+| `yt_script_tts.md`       | ElevenLabs TTS用に最適化された脚本         |
+| `youtube_description.md` | YouTube動画の説明文（概要欄）              |
 
 ## 言語設定
 

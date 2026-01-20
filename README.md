@@ -1,55 +1,60 @@
-# プロジェクト名
-プロジェクト名を書いてください。
+# 科学動画の作り方 - YouTube動画シリーズ
+
+科学技術系YouTubeチャンネル向けの「科学動画の作り方」シリーズの脚本・構成プロジェクトです。
 
 ## 概要
-プロジェクトの概要を書いてください。
 
-## 開発環境
-開発環境について書きます。以下が例です。
+このリポジトリでは、科学系YouTube動画の制作ノウハウを体系的にまとめた動画シリーズの脚本を管理しています。動画制作のワークフロー、脚本の書き方、リサーチ方法、使用機材など、科学コミュニケーターに役立つ情報を提供します。
 
-- OS: Ubuntu-18.04 (AWS EC2 instance xrdp01-gui)
-- Python: 3.8.6
+## シリーズ内容
 
-## インストール方法
-インストール方法を書いてください。
-以下のようなコマンドを書くなどすると手順がわかりやすくなるでしょう。
+| #   | エピソード         | 内容                                     | 状態   |
+| --- | ------------------ | ---------------------------------------- | ------ |
+| 1   | 動画制作           | 動画制作の全体ワークフロー               | 準備中 |
+| 2   | 脚本と構成         | 視聴者を惹きつける脚本の書き方           | 未着手 |
+| 3   | リサーチと資料収集 | 信頼性の高い情報収集と整理方法           | 未着手 |
+| 4   | 機材とツール       | 撮影・編集に使用する機材とソフトウェア   | 未着手 |
+| 5   | バックストーリー   | 制作の裏話、チャンネル運営のリアル       | 未着手 |
 
-```
-make install
-```
+## ディレクトリ構成
 
-## 使い方
-実行方法やチュートリアルを書いてください。
-必要に応じてスクリーンショットや動画を使ってください。
+```text
+video-scripts/           # 各エピソードの脚本
+├── 1-video-production/
+│   ├── survey-draft.md          # 調査・下書き
+│   ├── yt_script.md             # YouTube動画脚本
+│   ├── yt_script_tts.md         # TTS用脚本
+│   └── youtube_description.md   # 動画説明文
+├── 2-script-and-composition/
+├── 3-research-and-material-gathering/
+├── 4-equipment-and-tools/
+└── 5-backstories/
 
-## その他
-必要なことがあれば書いてください。
+instructions/            # 制作ガイドライン
+└── youtube_script_guidelines.md  # TTS変換ガイドライン
 
-_____
-
-# Project name
-Write the name of the project.
-
-## Overview
-Write an overview of the project.
-
-## Development environment
-Write about the development environment. The following is an example.
-
-- OS: Ubuntu-18.04 (AWS EC2 instance xrdp01-gui)
-- Python: 3.8.6
-
-## Installation
-Write down the installation procedure.
-Commands will be useful to make clear as:
-
-```
-make install
+manim-scripts/           # Manimアニメーションスクリプト
 ```
 
-## Usage
-Write a running procedure or tutorial.
-Use screenshots and videos if necessary.
+## 脚本ファイルの種類
 
-## Others
-Anything else, please write here.
+| ファイル                 | 用途                                               |
+| ------------------------ | -------------------------------------------------- |
+| `survey-draft.md`        | トピックの調査結果、参考資料、アイデアメモ         |
+| `yt_script.md`           | 完成版の動画脚本（撮影・編集用）                   |
+| `yt_script_tts.md`       | ElevenLabs等のTTS用に最適化された脚本              |
+| `youtube_description.md` | YouTube動画の説明文（概要欄に掲載する内容）        |
+
+## 使用技術
+
+- **TTS**: ElevenLabs（音声合成）
+- **アニメーション**: Manim（数学・科学アニメーション）
+- **脚本管理**: Markdown
+
+## 貢献
+
+脚本の改善提案やフィードバックは、Issueまたはプルリクエストでお寄せください。
+
+## ライセンス
+
+TBD

@@ -8,11 +8,17 @@
 
 | #   | エピソード         | フォルダ                                           | 状態   |
 | --- | ------------------ | -------------------------------------------------- | ------ |
+| 0   | シリーズ紹介       | `video-scripts/0-series-introduction/`             | 準備中 |
 | 1   | 動画制作           | `video-scripts/1-video-production/`                | 準備中 |
 | 2   | 脚本と構成         | `video-scripts/2-script-and-composition/`          | 未着手 |
 | 3   | リサーチと資料収集 | `video-scripts/3-research-and-material-gathering/` | 未着手 |
 | 4   | 機材とツール       | `video-scripts/4-equipment-and-tools/`             | 未着手 |
 | 5   | バックストーリー   | `video-scripts/5-backstories/`                     | 未着手 |
+
+## 動画フォーマット
+
+- **動画の長さ**: 3分以内
+- **1動画1テーマ**: 複数のテーマを詰め込まず、1つのテーマに絞って伝える
 
 ## ディレクトリ構造
 
@@ -26,6 +32,8 @@ how-to-make-science-YT-videos/
 │   └── youtube_script_guidelines.md  # TTS変換ガイドライン
 ├── manim-scripts/               # Manimアニメーションスクリプト
 └── video-scripts/               # 動画別脚本
+    ├── 0-series-introduction/
+    │   └── survey-draft.md      # アウトライン・下書き
     ├── 1-video-production/
     │   ├── survey-draft.md      # 調査・下書き
     │   ├── yt_script.md         # YouTube動画脚本
